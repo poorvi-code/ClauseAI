@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ClauseAI - Legal Document Summarizer</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<style>
+.document-preview {
+height: 300px;
+overflow-y: auto;
+border: 1px dashed #ccc;
+padding: 1rem;
+background-color: #f9f9f9;
+}
+.summary-container {
+background-color: #f0f9ff;
+border-left: 4px solid #3b82f6;
+}
+.loading-spinner { display: none; }
+.loading-spinner.active { display: block; }
+.highlight {
+background-color: #fef08a;
+padding: 0.1rem 0.2rem;
+border-radius: 0.25rem; /* fixed */
+}
+</style>
+</head>
+<body class="min-h-screen bg-gray-50">
+<div id="root"></div>
+</body>
+</html>
